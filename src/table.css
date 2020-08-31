@@ -1,0 +1,11 @@
+
+table{ width: 100%; }
+th, td {
+    border-bottom: 1px solid #ddd;
+    height: 30px;
+  }
+div {
+text-align: center;
+margin-left: 1cm;
+margin-right: 1cm;
+ }
