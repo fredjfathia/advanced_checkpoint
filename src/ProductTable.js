@@ -31,11 +31,10 @@ return(
   }
   ProductTable.prototype={
       products : PropTypes.arrayOf(
-          PropTypes.shape({
-              name : PropTypes.string.isRequired,
-              category : PropTypes.string.isRequired,
-              price : PropTypes.number.isRequired,
-          })
-      )
-  }
-export {ProductTable} ;
+         {name : PropTypes.string,
+          category : PropTypes.string,
+          price : PropTypes.number,
+         })
+    }
+  
+export default ProductTable ;
