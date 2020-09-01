@@ -29,7 +29,7 @@ return(
 </div>
 )
   }
-  ProductTable.prototype={
+  ProductTable.propTypes={
       products : PropTypes.arrayOf(
          {name : PropTypes.string,
           category : PropTypes.string,
